@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link icon -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Black+Ops+One&family=Lilita+One&family=Monoton&family=Rubik+Mono+One&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <!-- file-picture -->
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<body>
+    <!-- navbar -->
+
+    <section id="menu" style="position:sticky; top:0; z-index: 2;" >
+        <div class="row row-cols-2" id="row1" style="height:100px">
+            <div class="col" id="col1" style="background-color:transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <a href="https://www.freeiconspng.com/img/40407" title="Image from freeiconspng.com" class="image"><img
+                        class="icon" src="https://www.freeiconspng.com/uploads/music-red-symbol-free-icon-27.png"
+                        width="35px" alt="music, red, symbol, free icon" /></a>
+                <h2 style="color: white;">MUSIC</h2>
+                <i class="fi fi-sr-menu-burger"></i>
+                <input type="search" placeholder="   searching for music" id="search">
+            </div>
+            <div class="col" id="col1" style="background-color:transparent">
+                <button class="sign-up">sign-up</button>
+                <button class="login">log-in</button>
+            </div>
+
+
+
+
+        </div>
+    </section>
+    <!-- main-web -->
+    <section>
+        <div class="row" id="row2" style="height:100">
+            <!-- menu -->
+            <div class="col-1" id="col2" style="background-color:black;position:sticky; top:0; z-index: 1;  ">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-house-door" viewBox="0 0 16 16">
+                    <path
+                        d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                </svg>
+                <h10> Home </h10>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-disc"
+                    viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path
+                        d="M10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 4a4 4 0 0 0-4 4 .5.5 0 0 1-1 0 5 5 0 0 1 5-5 .5.5 0 0 1 0 1zm4.5 3.5a.5.5 0 0 1 .5.5 5 5 0 0 1-5 5 .5.5 0 0 1 0-1 4 4 0 0 0 4-4 .5.5 0 0 1 .5-.5z" />
+                </svg>
+                <h10> Music </h10>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-folder"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z" />
+                </svg>
+                <h10 class="h10-1"> Chat </h10>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-vinyl"
+                    viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0z" />
+                    <path d="M9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                </svg>
+                <h10 class="h10-2"> VIP </h10>
+            </div>
+       
+            <div class="col-1" id="col2" style="background-color:rgba(0, 0, 0, 0.921)"></div>
+            <!-- web -->
+            <div class="col" id="col-3" style="background-color:#fff; width: 60%; ">
+                <!-- web-holder-1 -->
+                <div class="row" style="height:50px; background-color:rgba(0, 0, 0, 0.921); padding-top: 10px;">
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col-1 px-0 py-0" style="background-color:transparent;"><button
+                            class="document"></button></div>
+                    <div class="col px-0 py-0" style="background-color:transparent;"></div>
+
+                    </ul>
+                </div>
+                <div class="row" style="height:150px; background-color:rgba(0, 0, 0, 0.921); padding-top: 10px;">
+                    <h1 class="description"> Welcome to our web </h1>
+                    <h10 class="description-1"> please sign in for the new discovery </h10>
+                    <h3 style="color: white; z-index:1;"> Music trend </h3>
+
+                </div>
+
+                <div class="row" style="height:300px; background-color:rgba(0, 0, 0, 0.921);" id="row3">
+
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/-_b4a1BKSnM/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/-_b4a1BKSnM/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- web-holder-2 -->
+                <div class="row" style="height:200px; background-color:rgba(0, 0, 0, 0.921);"></div>
+                <div class="row" style="height:100px; background-color:rgba(0, 0, 0, 0.921);">
+                    <h3 style="margin-top:100px; color: white; z-index: 1;">Our song</h3>
+                </div>
+                <div class="row" style="height:300px; background-color:rgba(0, 0, 0, 0.921);" id="row4">
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/-_b4a1BKSnM/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- web-holder-3 -->
+
+                <div class="row" style="height:200px; background-color:rgba(0, 0, 0, 0.921);"></div>
+                <div class="row" style="height:100px; background-color:rgba(0, 0, 0, 0.921);">
+                    <h3 style="margin-top:100px; color: white; z-index: 1;">Our song</h3>
+                </div>
+                <div class="row" style="height:300px; background-color:rgba(0, 0, 0, 0.921);" id="row5">
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/-_b4a1BKSnM/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+
+                </div>
+  
+                <!-- web-holder-4 -->
+                <div class="row" style="height:200px; background-color:rgba(0, 0, 0, 0.921);"></div>
+                <div class="row" style="height:100px; background-color:rgba(0, 0, 0, 0.921);">
+                    <h3 style="margin-top:100px; color: white; z-index: 1;">Our song</h3>
+                </div>
+                <div class="row" style="height:300px; background-color:rgba(0, 0, 0, 0.921);" id="row5">
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/-_b4a1BKSnM/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/HDe7GYpxq9g/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/EX7oWSbVbGY/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+                    <div class="col px-2 py-5">
+                        <img class="image" src="https://i.ytimg.com/vi/yWHrYNP6j4k/maxresdefault.jpg" alt="">
+                        <div class="video-description">
+                            <h6>LOVE YOURSELF - pillow music</h6>
+                            <h12>Justin Bieber</h12>
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+    
+      
+
+
+    <!-- javascript -->
+    <script src="./index.js"></script>
+    <!-- Boostrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Boostrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ink-slide -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ /* navbar */
+#col1{
+    display: flex;
+}
+h2{
+    font-family: 'Monoton', cursive;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+#menu{
+    background-color: black;
+}
+.fi-sr-menu-burger{
+    font-size: 100px;}
+
+#search{
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    background: #1C1619;
+    outline:  none;
+    color: #fff;
+    border-style:solid;
+    border-width: 1px;
+}
+.image{
+    padding-top: 10px;
+    padding-left: 3%;
+}
+.sign-up{
+    margin-top: 10px;
+    margin-left:65%;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#1C1619;
+    color: #fff;
+    border-style:solid;
+    border-width: 1px;
+}
+.login{
+    margin-top: 10px;
+    margin-left:1%;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#1C1619;
+    color: #fff;
+    border-style:solid;
+    border-width: 1px;
+
+}
+/* menu */
+.bi-list{
+    margin-top: 12px;
+    color: #fff;
+    margin-left:3% ;
+}
+
+.bi-house-door{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.bi-disc{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+.bi-folder{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+.bi-vinyl{
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 40%;  
+}
+h10{
+    color: #fff;
+    padding-left: 35%;
+}
+.h10-1{
+    color: #fff;
+    padding-left: 38%;
+}
+.h10-2{
+    color: #fff;
+    padding-left: 43%;
+}
+/* web holder */
+.document{
+ width: 10px;
+
+}
+
+#row-1{ 
+   background-color:#1C1619; 
+}
+.document{
+    margin-top: 5px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#1C1619;
+    color: #fff;
+    border-style:solid;
+    border-width: 1px;
+ 
+}
+.description{
+    padding-top:40px ;
+    color: #fff;
+}
+.description-1{
+    padding-bottom: 30px;
+    color: #fff;
+
+}
+.image{
+    height: 170px;
+    border-radius: 20px;
+
+}
+.scroll{
+    display: flex;
+}
+.slick-prev{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+  }
+  .slick-next{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+  
+  
+  }
+  .music-description{
+    color:white;
+  }
+.video-description{
+    color: #fff;
+    margin-left: 7%;
+    padding-top: 10px;
+
+}
+h12{
+    color: rgba(255, 255, 255, 0.591);
+}
+h6{
+    color: #fff;
+}
